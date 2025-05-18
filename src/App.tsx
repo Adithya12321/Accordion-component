@@ -1,5 +1,6 @@
 
 import './App.css'
+import { About } from './components/About'
 import { Accoridan } from './components/Accoridan'
 
 function App() {
@@ -22,7 +23,7 @@ function App() {
 
   return (
     <div className='bg-[#2E2E2E] text-[#F3F3F3]  w-full h-screen'>
-      <div className=' p-5'>
+      <div className='fixed top-1/3  w-full px-10'>
         <div className='border rounded p-2'>
           {
             items.map((data, index) => (
@@ -31,6 +32,7 @@ function App() {
           }
         </div>
       </div>
+      <About />
     </div>
   )
 }
