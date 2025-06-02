@@ -17,7 +17,7 @@ function App() {
           {
             title: "Why is GitHub so popular?",
             content:
-              "GitHub is built by developers for developers, and we’re proud to be home to the world’s largest open source community. With 50 million developers and millions more open source projects, GitHub has become the go-to place to collaborate and build software together.",
+              "GitHub is built by developers for developers <3, and we’re proud to be home to the world’s largest open source community. With 50 million developers and millions more open source projects, GitHub has become the go-to place to collaborate and build software together.",
           },
   ]
 
